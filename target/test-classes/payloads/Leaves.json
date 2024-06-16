@@ -1,0 +1,9 @@
+{
+  "startDate": "2024-05-16",
+  "endDate": "2024-05-20",
+  "reason": "Vacation",
+  "status": "Approved",
+  "employee": {
+    "id": 2
+  }
+}

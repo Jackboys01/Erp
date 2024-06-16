@@ -1,0 +1,66 @@
+24-05-31 18:39:24.090 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.LeavesControllerTest 
+24-05-31 18:39:24.551 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-05-31 18:39:24.953 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-05-31 18:39:25.037 [main] INFO  c.E.c.LeavesControllerTest - Starting LeavesControllerTest using Java 17.0.3.1 with PID 15092 (started by 91774 in C:\Users\91774\Desktop\AvisoftERPnew) 
+24-05-31 18:39:25.039 [main] INFO  c.E.c.LeavesControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-05-31 18:39:27.519 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4366c178-037b-4481-90c5-2b5d9a0f61ee
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-05-31 18:39:28.274 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@545604a9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1029cf9, org.springframework.security.web.context.SecurityContextHolderFilter@503a7990, org.springframework.security.web.header.HeaderWriterFilter@7e38e254, org.springframework.web.filter.CorsFilter@1c0e4262, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@14dbfdb1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dcbbb49, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35329a05, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@27dfd12b, org.springframework.security.web.access.ExceptionTranslationFilter@1cc93da4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30704f85]
+24-05-31 18:39:28.680 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-05-31 18:39:28.680 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-05-31 18:39:28.683 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms 
+24-05-31 18:39:28.730 [main] INFO  c.E.c.LeavesControllerTest - Started LeavesControllerTest in 4.187 seconds (process running for 6.538) 
+24-05-31 18:39:29.000 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:29.000 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:29.293 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:29.293 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:29.314 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:29.315 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:29.338 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:29.338 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:29.362 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:29.362 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:48.315 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.ProjectControllerTest 
+24-05-31 18:39:49.042 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-05-31 18:39:49.503 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-05-31 18:39:49.566 [main] INFO  c.E.c.ProjectControllerTest - Starting ProjectControllerTest using Java 17.0.3.1 with PID 9064 (started by 91774 in C:\Users\91774\Desktop\AvisoftERPnew) 
+24-05-31 18:39:49.568 [main] INFO  c.E.c.ProjectControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-05-31 18:39:52.388 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 82eb264b-fceb-4a33-b6c3-3878da21e68b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-05-31 18:39:53.111 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b3b2c34, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28b5d5dc, org.springframework.security.web.context.SecurityContextHolderFilter@492c9892, org.springframework.security.web.header.HeaderWriterFilter@6d9428f3, org.springframework.web.filter.CorsFilter@407f2029, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@40ac0a56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@436a563f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@538e74fc, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@77020328, org.springframework.security.web.access.ExceptionTranslationFilter@72f24a84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bc25ac2]
+24-05-31 18:39:53.492 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-05-31 18:39:53.493 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-05-31 18:39:53.494 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-05-31 18:39:53.537 [main] INFO  c.E.c.ProjectControllerTest - Started ProjectControllerTest in 4.506 seconds (process running for 7.197) 
+24-05-31 18:39:53.622 [main] INFO  c.E.c.ProjectControllerTest - Starting getProjectTest 
+24-05-31 18:39:53.780 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:53.780 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:53.993 [main] INFO  c.E.c.ProjectControllerTest - getProjectTest passed 
+24-05-31 18:39:54.029 [main] INFO  c.E.c.ProjectControllerTest - Starting testAddAllProjects 
+24-05-31 18:39:54.037 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:54.037 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:54.163 [main] INFO  c.E.c.ProjectControllerTest - testAddAllProjects passed 
+24-05-31 18:39:54.177 [main] INFO  c.E.c.ProjectControllerTest - Starting testCreateProject 
+24-05-31 18:39:54.182 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:54.182 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:54.189 [main] INFO  c.E.c.ProjectControllerTest - testCreateProject passed 
+24-05-31 18:39:54.201 [main] INFO  c.E.c.ProjectControllerTest - Starting testUpdateProject 
+24-05-31 18:39:54.206 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:54.206 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:54.211 [main] INFO  c.E.c.ProjectControllerTest - testUpdateProject passed 
+24-05-31 18:39:54.225 [main] INFO  c.E.c.ProjectControllerTest - Starting getAllProjectsTest 
+24-05-31 18:39:54.228 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:54.228 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:54.232 [main] INFO  c.E.c.ProjectControllerTest - getAllProjectsTest passed 
+24-05-31 18:39:54.244 [main] INFO  c.E.c.ProjectControllerTest - Starting testDeleteProject 
+24-05-31 18:39:54.246 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:39:54.246 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:39:54.249 [main] INFO  c.E.c.ProjectControllerTest - testDeleteProject passed 

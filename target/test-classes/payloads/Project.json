@@ -1,0 +1,7 @@
+{
+  "name":"Test Project",
+  "description": "This is a test project",
+  "startDate": "2023-05-01",
+  "endDate": "2023-12-31",
+  "status": "Active"
+}

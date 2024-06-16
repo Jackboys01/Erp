@@ -1,0 +1,15 @@
+24-05-31 18:46:34.160 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-05-31 18:46:34.683 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-05-31 18:46:34.762 [main] INFO  c.E.c.EmployeeControllerTest - Starting EmployeeControllerTest using Java 17.0.3.1 with PID 4040 (started by 91774 in C:\Users\91774\Desktop\AvisoftERPnew) 
+24-05-31 18:46:34.764 [main] INFO  c.E.c.EmployeeControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-05-31 18:46:37.927 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c15558ac-5883-496b-9f36-61ab14359d29
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-05-31 18:46:38.137 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d85b399, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@674aa626, org.springframework.security.web.context.SecurityContextHolderFilter@63262071, org.springframework.security.web.header.HeaderWriterFilter@135e49b2, org.springframework.web.filter.CorsFilter@4dd1d2bb, org.springframework.security.web.csrf.CsrfFilter@110620d, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@46e388ec, org.springframework.security.web.jwtAuthentication.UsernamePasswordAuthenticationFilter@5dd6a4c8, org.springframework.security.web.jwtAuthentication.ui.DefaultLoginPageGeneratingFilter@5d2e6f62, org.springframework.security.web.jwtAuthentication.ui.DefaultLogoutPageGeneratingFilter@47198524, org.springframework.security.web.jwtAuthentication.www.BasicAuthenticationFilter@8ac512e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1282f784, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41167ded, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@67a0ff25, org.springframework.security.web.access.ExceptionTranslationFilter@708769b7, org.springframework.security.web.access.intercept.AuthorizationFilter@4cc7e3ad]
+24-05-31 18:46:38.218 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-05-31 18:46:38.219 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-05-31 18:46:38.221 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-05-31 18:46:38.264 [main] INFO  c.E.c.EmployeeControllerTest - Started EmployeeControllerTest in 4.135 seconds (process running for 6.125) 

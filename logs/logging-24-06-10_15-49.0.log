@@ -1,0 +1,92 @@
+24-06-10 15:49:02.189 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.InvoiceRepositoryTest]: InvoiceRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:49:02.193 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.InvoiceRepositoryTest 
+24-06-10 15:49:02.198 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting findAllInvoices 
+24-06-10 15:49:02.198 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting addAll 
+24-06-10 15:49:02.552 [main] INFO  c.E.r.InvoiceRepositoryTest - addAll passed 
+24-06-10 15:49:02.850 [main] INFO  c.E.r.InvoiceRepositoryTest - findAllInvoices passed 
+24-06-10 15:49:02.854 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting addAll 
+24-06-10 15:49:03.145 [main] INFO  c.E.r.InvoiceRepositoryTest - addAll passed 
+24-06-10 15:49:03.149 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting findByNameTest 
+24-06-10 15:49:03.652 [main] INFO  c.E.r.InvoiceRepositoryTest - findByNameTest passed 
+24-06-10 15:49:03.656 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting updateInvoice 
+24-06-10 15:49:04.386 [main] INFO  c.E.r.InvoiceRepositoryTest - updateInvoice passed 
+24-06-10 15:49:04.389 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting saveInvoiceTest 
+24-06-10 15:49:04.601 [main] INFO  c.E.r.InvoiceRepositoryTest - saveInvoiceTest passed 
+24-06-10 15:49:04.604 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting findInvoiceById 
+24-06-10 15:49:05.103 [main] INFO  c.E.r.InvoiceRepositoryTest - findInvoiceById passed 
+24-06-10 15:49:05.106 [main] INFO  c.E.r.InvoiceRepositoryTest - Starting deleteInvoice 
+24-06-10 15:49:05.840 [main] INFO  c.E.r.InvoiceRepositoryTest - deleteInvoice passed 
+24-06-10 15:49:05.867 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.LeavesRepositoryTest]: LeavesRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:49:05.884 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.LeavesRepositoryTest 
+24-06-10 15:49:06.992 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.ProjectRepositoryTest]: ProjectRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:49:06.995 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.ProjectRepositoryTest 
+24-06-10 15:49:07.002 [main] INFO  c.E.r.ProjectRepositoryTest - Starting updateProject 
+24-06-10 15:49:08.946 [main] INFO  c.E.r.ProjectRepositoryTest - updateProject passed 
+24-06-10 15:49:08.949 [main] INFO  c.E.r.ProjectRepositoryTest - Starting addAll 
+24-06-10 15:49:09.288 [main] INFO  c.E.r.ProjectRepositoryTest - addAll passed 
+24-06-10 15:49:09.292 [main] INFO  c.E.r.ProjectRepositoryTest - Starting findByNameTest 
+24-06-10 15:49:10.846 [main] INFO  c.E.r.ProjectRepositoryTest - findByNameTest passed 
+24-06-10 15:49:10.850 [main] INFO  c.E.r.ProjectRepositoryTest - Starting deleteProject 
+24-06-10 15:49:13.080 [main] INFO  c.E.r.ProjectRepositoryTest - deleteProject passed 
+24-06-10 15:49:13.084 [main] INFO  c.E.r.ProjectRepositoryTest - Starting saveProjectTest 
+24-06-10 15:49:13.343 [main] INFO  c.E.r.ProjectRepositoryTest - saveProjectTest passed 
+24-06-10 15:49:13.347 [main] INFO  c.E.r.ProjectRepositoryTest - Starting findProjectById 
+24-06-10 15:49:15.277 [main] INFO  c.E.r.ProjectRepositoryTest - findProjectById passed 
+24-06-10 15:49:15.281 [main] INFO  c.E.r.ProjectRepositoryTest - Starting findAllProjects 
+24-06-10 15:49:16.846 [main] INFO  c.E.r.ProjectRepositoryTest - findAllProjects passed 
+24-06-10 15:49:16.873 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.SalaryStructureRepositoryTest]: SalaryStructureRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:49:16.881 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.SalaryStructureRepositoryTest 
+24-06-10 15:49:17.516 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting findAllAssetTest 
+24-06-10 15:49:17.521 [main] INFO  c.ERP.servicesTest.AssetServiceTest - findAllAssetTest passed 
+24-06-10 15:49:17.523 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting updateAssetTest 
+24-06-10 15:49:17.528 [main] INFO  c.ERP.servicesTest.AssetServiceTest - updateAssetTest passed 
+24-06-10 15:49:17.530 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting createAllAssetsTest 
+24-06-10 15:49:17.533 [main] INFO  c.ERP.servicesTest.AssetServiceTest - createAllAssetsTest passed 
+24-06-10 15:49:17.535 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting createAssetTest 
+24-06-10 15:49:17.536 [main] INFO  c.ERP.servicesTest.AssetServiceTest - createAssetTest passed 
+24-06-10 15:49:17.538 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting findAssetTest 
+24-06-10 15:49:17.539 [main] INFO  c.ERP.servicesTest.AssetServiceTest - findAssetTest passed 
+24-06-10 15:49:17.541 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting deleteAssetTest 
+24-06-10 15:49:17.543 [main] INFO  c.ERP.servicesTest.AssetServiceTest - deleteAssetTest passed 
+24-06-10 15:49:17.806 [main] INFO  c.E.s.DepartmentServiceTest - Starting updateDepartmentTest 
+24-06-10 15:49:17.808 [main] INFO  c.E.s.DepartmentServiceTest - updateDepartmentTest passed 
+24-06-10 15:49:17.810 [main] INFO  c.E.s.DepartmentServiceTest - Starting createDepartmentTest 
+24-06-10 15:49:17.816 [main] INFO  c.E.s.DepartmentServiceTest - createDepartmentTest passed 
+24-06-10 15:49:17.818 [main] INFO  c.E.s.DepartmentServiceTest - Starting deleteDepartmentTest 
+24-06-10 15:49:17.820 [main] INFO  c.E.s.DepartmentServiceTest - deleteDepartmentTest passed 
+24-06-10 15:49:17.822 [main] INFO  c.E.s.DepartmentServiceTest - Starting findDepartmentTest 
+24-06-10 15:49:17.824 [main] INFO  c.E.s.DepartmentServiceTest - findDepartmentTest passed 
+24-06-10 15:49:17.826 [main] INFO  c.E.s.DepartmentServiceTest - Starting createAllDepartmentsTest 
+24-06-10 15:49:17.833 [main] INFO  c.E.s.DepartmentServiceTest - createAllDepartmentsTest passed 
+24-06-10 15:49:17.835 [main] INFO  c.E.s.DepartmentServiceTest - Starting findAllDepartmentTest 
+24-06-10 15:49:17.837 [main] INFO  c.E.s.DepartmentServiceTest - findAllDepartmentTest passed 
+24-06-10 15:49:18.085 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting updateInvoiceTest 
+24-06-10 15:49:18.088 [main] INFO  c.E.servicesTest.InvoiceServiceTest - updateInvoiceTest passed 
+24-06-10 15:49:18.091 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting createAllInvoicesTest 
+24-06-10 15:49:18.103 [main] INFO  c.E.servicesTest.InvoiceServiceTest - createAllInvoicesTest passed 
+24-06-10 15:49:18.107 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting deleteInvoiceTest 
+24-06-10 15:49:18.109 [main] INFO  c.E.servicesTest.InvoiceServiceTest - deleteInvoiceTest passed 
+24-06-10 15:49:18.112 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting findAllInvoiceTest 
+24-06-10 15:49:18.114 [main] INFO  c.E.servicesTest.InvoiceServiceTest - findAllInvoiceTest passed 
+24-06-10 15:49:18.116 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting createInvoiceTest 
+24-06-10 15:49:18.130 [main] INFO  c.E.servicesTest.InvoiceServiceTest - createInvoiceTest passed 
+24-06-10 15:49:18.133 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting findInvoiceTest 
+24-06-10 15:49:18.135 [main] INFO  c.E.servicesTest.InvoiceServiceTest - findInvoiceTest passed 
+24-06-10 15:49:18.380 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting updateProjectTest 
+24-06-10 15:49:18.383 [main] INFO  c.E.servicesTest.ProjectServiceTest - updateProjectTest passed 
+24-06-10 15:49:18.388 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting deleteProjectTest 
+24-06-10 15:49:18.392 [main] INFO  c.E.servicesTest.ProjectServiceTest - deleteProjectTest passed 
+24-06-10 15:49:18.396 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting findAllProjectTest 
+24-06-10 15:49:18.398 [main] INFO  c.E.servicesTest.ProjectServiceTest - findAllProjectTest passed 
+24-06-10 15:49:18.400 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting createProjectTest 
+24-06-10 15:49:18.406 [main] INFO  c.E.servicesTest.ProjectServiceTest - createProjectTest passed 
+24-06-10 15:49:18.409 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting findProjectTest 
+24-06-10 15:49:18.411 [main] INFO  c.E.servicesTest.ProjectServiceTest - findProjectTest passed 
+24-06-10 15:49:18.413 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting createAllProjectsTest 
+24-06-10 15:49:18.422 [main] INFO  c.E.servicesTest.ProjectServiceTest - createAllProjectsTest passed 
+24-06-10 15:49:18.950 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+24-06-10 15:49:18.952 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+24-06-10 15:49:19.421 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+24-06-10 15:49:19.421 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+24-06-10 15:49:19.422 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated... 
+24-06-10 15:49:19.861 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed. 

@@ -1,0 +1,54 @@
+24-05-31 18:40:13.673 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.SalaryStructureControllerTest 
+24-05-31 18:40:13.885 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-05-31 18:40:14.422 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-05-31 18:40:14.486 [main] INFO  c.E.c.SalaryStructureControllerTest - Starting SalaryStructureControllerTest using Java 17.0.3.1 with PID 19116 (started by 91774 in C:\Users\91774\Desktop\AvisoftERPnew) 
+24-05-31 18:40:14.489 [main] INFO  c.E.c.SalaryStructureControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-05-31 18:40:17.351 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9027dfa4-a03e-4812-a43f-19e20db89654
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-05-31 18:40:18.099 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a6dc5ea, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31d4b3e8, org.springframework.security.web.context.SecurityContextHolderFilter@49986178, org.springframework.security.web.header.HeaderWriterFilter@4403bff8, org.springframework.web.filter.CorsFilter@278de2b2, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@6dd20ec9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25b74370, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15e8c040, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@1fc1c7e, org.springframework.security.web.access.ExceptionTranslationFilter@7f012923, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70f85235]
+24-05-31 18:40:18.491 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-05-31 18:40:18.491 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-05-31 18:40:18.494 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+24-05-31 18:40:18.562 [main] INFO  c.E.c.SalaryStructureControllerTest - Started SalaryStructureControllerTest in 4.694 seconds (process running for 6.762) 
+24-05-31 18:40:18.773 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:18.773 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:19.003 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:19.003 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:19.135 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:19.135 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:19.175 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:19.176 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:19.209 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:19.209 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:19.228 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:19.229 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:31.783 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.TaskControllerTest 
+24-05-31 18:40:31.932 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-05-31 18:40:32.389 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-05-31 18:40:32.451 [main] INFO  c.E.c.TaskControllerTest - Starting TaskControllerTest using Java 17.0.3.1 with PID 19764 (started by 91774 in C:\Users\91774\Desktop\AvisoftERPnew) 
+24-05-31 18:40:32.452 [main] INFO  c.E.c.TaskControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-05-31 18:40:35.178 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e818a175-b400-4eec-a17b-6a3495e7af0a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-05-31 18:40:35.812 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ebfb045, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77a2688d, org.springframework.security.web.context.SecurityContextHolderFilter@7757a37f, org.springframework.security.web.header.HeaderWriterFilter@5350ab17, org.springframework.web.filter.CorsFilter@77c692b4, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@2e8b24a1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e521067, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bab95ca, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@5fa0141f, org.springframework.security.web.access.ExceptionTranslationFilter@48632f69, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d235635]
+24-05-31 18:40:36.160 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-05-31 18:40:36.162 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-05-31 18:40:36.163 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-05-31 18:40:36.206 [main] INFO  c.E.c.TaskControllerTest - Started TaskControllerTest in 4.283 seconds (process running for 6.498) 
+24-05-31 18:40:36.461 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:36.461 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:36.750 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:36.750 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:36.929 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:36.929 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:36.979 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:36.980 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-05-31 18:40:37.003 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-05-31 18:40:37.003 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 

@@ -1,0 +1,138 @@
+24-06-11 18:26:06.254 [main] INFO  c.E.r.ProjectRepositoryTest - findByNameTest passed 
+24-06-11 18:26:06.267 [main] INFO  c.E.r.ProjectRepositoryTest - Starting deleteProject 
+24-06-11 18:26:21.798 [main] INFO  c.E.r.ProjectRepositoryTest - deleteProject passed 
+24-06-11 18:26:21.808 [main] INFO  c.E.r.ProjectRepositoryTest - Starting saveProjectTest 
+24-06-11 18:26:22.763 [main] INFO  c.E.r.ProjectRepositoryTest - saveProjectTest passed 
+24-06-11 18:26:22.771 [main] INFO  c.E.r.ProjectRepositoryTest - Starting findProjectById 
+24-06-11 18:26:35.114 [main] INFO  c.E.r.ProjectRepositoryTest - findProjectById passed 
+24-06-11 18:26:35.123 [main] INFO  c.E.r.ProjectRepositoryTest - Starting findAllProjects 
+24-06-11 18:26:42.282 [main] INFO  c.E.r.ProjectRepositoryTest - findAllProjects passed 
+24-06-11 18:26:42.365 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.SalaryStructureRepositoryTest]: SalaryStructureRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-11 18:26:42.378 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.SalaryStructureRepositoryTest 
+24-06-11 18:26:42.379 [main] WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.ERP.repositoriesTest.SalaryStructureRepositoryTest@62446db1] 
+java.lang.IllegalStateException: ApplicationContext failure threshold (1) exceeded: skipping repeated attempt to load context for [MergedContextConfiguration@4f493bd9 testClass = com.ERP.repositoriesTest.SalaryStructureRepositoryTest, locations = [], classes = [com.ERP.ErpApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true"], contextCustomizers = [[ImportsContextCustomizer@14644607 key = [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcClientAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@d5ae57e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@305f031, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@4e76dac, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@34be3d80, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@6603aa4d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@6c6357f9, org.springframework.boot.test.context.SpringBootTestAnnotation@40ccd911], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:145)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+24-06-11 18:26:42.616 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting findAllAssetTest 
+24-06-11 18:26:42.625 [main] INFO  c.ERP.servicesTest.AssetServiceTest - findAllAssetTest passed 
+24-06-11 18:26:42.629 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting updateAssetTest 
+24-06-11 18:26:42.637 [main] INFO  c.ERP.servicesTest.AssetServiceTest - updateAssetTest passed 
+24-06-11 18:26:42.641 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting createAllAssetsTest 
+24-06-11 18:26:42.646 [main] INFO  c.ERP.servicesTest.AssetServiceTest - createAllAssetsTest passed 
+24-06-11 18:26:42.648 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting createAssetTest 
+24-06-11 18:26:42.652 [main] INFO  c.ERP.servicesTest.AssetServiceTest - createAssetTest passed 
+24-06-11 18:26:42.655 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting findAssetTest 
+24-06-11 18:26:42.659 [main] INFO  c.ERP.servicesTest.AssetServiceTest - findAssetTest passed 
+24-06-11 18:26:42.663 [main] INFO  c.ERP.servicesTest.AssetServiceTest - Starting deleteAssetTest 
+24-06-11 18:26:42.667 [main] INFO  c.ERP.servicesTest.AssetServiceTest - deleteAssetTest passed 
+24-06-11 18:26:43.031 [main] INFO  c.E.s.DepartmentServiceTest - Starting updateDepartmentTest 
+24-06-11 18:26:43.034 [main] INFO  c.E.s.DepartmentServiceTest - updateDepartmentTest passed 
+24-06-11 18:26:43.038 [main] INFO  c.E.s.DepartmentServiceTest - Starting createDepartmentTest 
+24-06-11 18:26:43.048 [main] INFO  c.E.s.DepartmentServiceTest - createDepartmentTest passed 
+24-06-11 18:26:43.052 [main] INFO  c.E.s.DepartmentServiceTest - Starting deleteDepartmentTest 
+24-06-11 18:26:43.055 [main] INFO  c.E.s.DepartmentServiceTest - deleteDepartmentTest passed 
+24-06-11 18:26:43.059 [main] INFO  c.E.s.DepartmentServiceTest - Starting findDepartmentTest 
+24-06-11 18:26:43.062 [main] INFO  c.E.s.DepartmentServiceTest - findDepartmentTest passed 
+24-06-11 18:26:43.066 [main] INFO  c.E.s.DepartmentServiceTest - Starting createAllDepartmentsTest 
+24-06-11 18:26:43.076 [main] INFO  c.E.s.DepartmentServiceTest - createAllDepartmentsTest passed 
+24-06-11 18:26:43.079 [main] INFO  c.E.s.DepartmentServiceTest - Starting findAllDepartmentTest 
+24-06-11 18:26:43.081 [main] INFO  c.E.s.DepartmentServiceTest - findAllDepartmentTest passed 
+24-06-11 18:26:43.439 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting updateInvoiceTest 
+24-06-11 18:26:43.444 [main] INFO  c.E.servicesTest.InvoiceServiceTest - updateInvoiceTest passed 
+24-06-11 18:26:43.448 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting createAllInvoicesTest 
+24-06-11 18:26:43.461 [main] INFO  c.E.servicesTest.InvoiceServiceTest - createAllInvoicesTest passed 
+24-06-11 18:26:43.466 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting deleteInvoiceTest 
+24-06-11 18:26:43.469 [main] INFO  c.E.servicesTest.InvoiceServiceTest - deleteInvoiceTest passed 
+24-06-11 18:26:43.472 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting findAllInvoiceTest 
+24-06-11 18:26:43.475 [main] INFO  c.E.servicesTest.InvoiceServiceTest - findAllInvoiceTest passed 
+24-06-11 18:26:43.478 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting createInvoiceTest 
+24-06-11 18:26:43.489 [main] INFO  c.E.servicesTest.InvoiceServiceTest - createInvoiceTest passed 
+24-06-11 18:26:43.492 [main] INFO  c.E.servicesTest.InvoiceServiceTest - Starting findInvoiceTest 
+24-06-11 18:26:43.495 [main] INFO  c.E.servicesTest.InvoiceServiceTest - findInvoiceTest passed 
+24-06-11 18:26:43.823 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting updateProjectTest 
+24-06-11 18:26:43.827 [main] INFO  c.E.servicesTest.ProjectServiceTest - updateProjectTest passed 
+24-06-11 18:26:43.830 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting deleteProjectTest 
+24-06-11 18:26:43.834 [main] INFO  c.E.servicesTest.ProjectServiceTest - deleteProjectTest passed 
+24-06-11 18:26:43.836 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting findAllProjectTest 
+24-06-11 18:26:43.839 [main] INFO  c.E.servicesTest.ProjectServiceTest - findAllProjectTest passed 
+24-06-11 18:26:43.843 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting createProjectTest 
+24-06-11 18:26:43.856 [main] INFO  c.E.servicesTest.ProjectServiceTest - createProjectTest passed 
+24-06-11 18:26:43.859 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting findProjectTest 
+24-06-11 18:26:43.863 [main] INFO  c.E.servicesTest.ProjectServiceTest - findProjectTest passed 
+24-06-11 18:26:43.867 [main] INFO  c.E.servicesTest.ProjectServiceTest - Starting createAllProjectsTest 
+24-06-11 18:26:43.876 [main] INFO  c.E.servicesTest.ProjectServiceTest - createAllProjectsTest passed 
+24-06-11 18:26:44.635 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+24-06-11 18:26:44.636 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+24-06-11 18:26:46.596 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 

@@ -1,0 +1,23 @@
+24-06-10 15:46:44.223 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.LeavesControllerTest 
+24-06-10 15:46:44.510 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:46:44.750 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-06-10 15:46:44.800 [main] INFO  c.E.c.LeavesControllerTest - Starting LeavesControllerTest using Java 17.0.11 with PID 9592 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:46:44.801 [main] INFO  c.E.c.LeavesControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:46:46.564 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7b2c86cb-a361-4990-ae9b-3a09954f0b00
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:46:47.136 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6df37f7a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39514976, org.springframework.security.web.context.SecurityContextHolderFilter@54e0f76f, org.springframework.security.web.header.HeaderWriterFilter@2d38db6f, org.springframework.web.filter.CorsFilter@7bdb4f17, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@780ee3ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7462ba4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b09d1c3, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@77856cc5, org.springframework.security.web.access.ExceptionTranslationFilter@7f53fc38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19ec5357]
+24-06-10 15:46:47.518 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:46:47.519 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:46:47.520 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:46:47.558 [main] INFO  c.E.c.LeavesControllerTest - Started LeavesControllerTest in 3.049 seconds (process running for 4.471) 
+24-06-10 15:46:47.704 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:46:47.704 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:46:58.435 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.LeavesControllerTest 
+24-06-10 15:46:58.660 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:46:58.894 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-06-10 15:46:58.940 [main] INFO  c.E.c.LeavesControllerTest - Starting LeavesControllerTest using Java 17.0.11 with PID 23320 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:46:58.943 [main] INFO  c.E.c.LeavesControllerTest - No active profile set, falling back to 1 default profile: "default" 

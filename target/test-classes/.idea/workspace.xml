@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff0d924c-9eff-444c-aaba-e0a39e0d19af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/controllers/AssetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/controllers/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/controllers/HRController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/controllers/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/controllers/SalaryPaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/controllers/SalaryStructureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/controllers/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/dtos/AssetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/dtos/DepartmentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/dtos/HRDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/dtos/ProjectDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/dtos/SalaryPaymentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/dtos/SalaryStructureDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/dtos/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/exceptionHandler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/exceptions/HRNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/exceptions/SalaryStructureNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/exceptions/TaskNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/repositories/AssetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/repositories/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/repositories/HRRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/repositories/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/repositories/SalaryPaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/repositories/SalaryStructureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/repositories/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/services/AssetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/services/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/services/HRService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/services/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/services/SalaryPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/services/SalaryStructureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/services/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/AssetServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/ClientInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/DepartmentServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/HRServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/ProjectServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/SalaryPaymentServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/SalaryStructureServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../main/java/com/ERP/servicesInter/TaskServiceInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/Reporting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/controllersTest/AssetControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/controllersTest/DepartmentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/controllersTest/HRControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/controllersTest/ProjectControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/controllersTest/SalaryPaymentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/controllersTest/SalaryStructureControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/controllersTest/TaskControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/entitiesTest/AssetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/entitiesTest/DepartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/entitiesTest/ProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/repositoriesTest/AssetRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/repositoriesTest/DepartmentRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/repositoriesTest/ProjectRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/repositoriesTest/SalaryStructureRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/servicesTest/AssetServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/servicesTest/DepartmentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/servicesTest/HRServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/servicesTest/ProjectServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/servicesTest/SalaryPaymentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/servicesTest/SalaryStructureServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/com/ERP/servicesTest/TaskServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payloads/Asset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payloads/Department.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payloads/Project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/java/com/ERP/entities/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/java/com/ERP/entities/Asset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/java/com/ERP/entities/HR.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/java/com/ERP/entities/HR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/java/com/ERP/entities/SalaryStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/java/com/ERP/entities/SalaryStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/HR$HRBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/HR$HRBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/HR.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/HR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/SalaryStructure$SalaryStructureBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/SalaryStructure$SalaryStructureBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/SalaryStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/com/ERP/entities/SalaryStructure.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2gxdNQT7DuF0VOYFHTn3hYO7By5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "simran",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/91774/Desktop/AvisoftERP/src/test/resources"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff0d924c-9eff-444c-aaba-e0a39e0d19af" name="Changes" comment="" />
+      <created>1716643121842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716643121842</updated>
+    </task>
+    <servers />
+  </component>
+</project>

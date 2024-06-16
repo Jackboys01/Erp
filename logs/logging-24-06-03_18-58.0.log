@@ -1,0 +1,51 @@
+24-06-03 18:58:16.758 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.EmployeeRepositoryTest]: EmployeeRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-03 18:58:17.085 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.EmployeeRepositoryTest 
+24-06-03 18:58:17.216 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-03 18:58:17.600 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-06-03 18:58:17.680 [main] INFO  c.E.r.EmployeeRepositoryTest - Starting EmployeeRepositoryTest using Java 17.0.11 with PID 2128 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-03 18:58:17.682 [main] INFO  c.E.r.EmployeeRepositoryTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-03 18:58:19.365 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+24-06-03 18:58:19.531 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 150 ms. Found 12 JPA repository interfaces. 
+24-06-03 18:58:20.122 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+24-06-03 18:58:20.225 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final 
+24-06-03 18:58:20.282 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+24-06-03 18:58:20.653 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+24-06-03 18:58:20.709 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+24-06-03 18:58:21.658 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dfc2a4 
+24-06-03 18:58:21.661 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+24-06-03 18:58:21.765 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+24-06-03 18:58:21.767 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead 
+24-06-03 18:58:23.462 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+24-06-03 18:58:24.625 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+24-06-03 18:58:25.333 [main] INFO  c.E.r.EmployeeRepositoryTest - Started EmployeeRepositoryTest in 8.131 seconds (process running for 14.847) 
+24-06-03 18:58:27.701 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+24-06-03 18:58:27.702 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+24-06-03 18:58:28.012 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed. 
+24-06-03 18:58:41.902 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.EmployeeControllerTest 
+24-06-03 18:58:42.015 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-03 18:58:42.390 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-06-03 18:58:42.453 [main] INFO  c.E.c.EmployeeControllerTest - Starting EmployeeControllerTest using Java 17.0.11 with PID 9168 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-03 18:58:42.455 [main] INFO  c.E.c.EmployeeControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-03 18:58:44.958 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 08ac5e01-f7ab-47ff-b3d0-0f87e0b1668d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-03 18:58:45.806 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1201e064, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a69f9d, org.springframework.security.web.context.SecurityContextHolderFilter@59313495, org.springframework.security.web.header.HeaderWriterFilter@443af394, org.springframework.web.filter.CorsFilter@5a8dcfbb, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@382d549a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@455cbf18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24aedcc5, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@1846ad0f, org.springframework.security.web.access.ExceptionTranslationFilter@636dbfe7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@166e5a6d]
+24-06-03 18:58:46.234 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-03 18:58:46.235 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-03 18:58:46.237 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+24-06-03 18:58:46.300 [main] INFO  c.E.c.EmployeeControllerTest - Started EmployeeControllerTest in 4.295 seconds (process running for 5.964) 
+24-06-03 18:58:46.517 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-03 18:58:46.517 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-03 18:58:46.766 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-03 18:58:46.766 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-03 18:58:46.807 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-03 18:58:46.808 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-03 18:58:46.873 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-03 18:58:46.873 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-03 18:58:46.904 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-03 18:58:46.905 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-03 18:58:46.930 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-03 18:58:46.930 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 

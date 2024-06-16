@@ -1,0 +1,1 @@
+24-05-31 18:40:59.896 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.SalaryPaymentControllerTest 

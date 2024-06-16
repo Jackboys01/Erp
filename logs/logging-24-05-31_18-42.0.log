@@ -1,0 +1,5 @@
+24-05-31 18:42:56.848 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.ClientControllerTest 
+24-05-31 18:42:57.325 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-05-31 18:42:57.727 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-05-31 18:42:57.790 [main] INFO  c.E.c.ClientControllerTest - Starting ClientControllerTest using Java 17.0.3.1 with PID 22592 (started by 91774 in C:\Users\91774\Desktop\AvisoftERPnew) 
+24-05-31 18:42:57.793 [main] INFO  c.E.c.ClientControllerTest - No active profile set, falling back to 1 default profile: "default" 

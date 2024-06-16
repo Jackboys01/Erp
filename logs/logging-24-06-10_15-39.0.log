@@ -1,0 +1,18 @@
+24-06-10 15:39:51.416 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.LeavesControllerTest 
+24-06-10 15:39:51.672 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:39:51.904 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-06-10 15:39:51.951 [main] INFO  c.E.c.LeavesControllerTest - Starting LeavesControllerTest using Java 17.0.11 with PID 18960 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:39:51.952 [main] INFO  c.E.c.LeavesControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:39:53.780 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 70bc58f1-d3e1-4f7a-aca5-ffdb69b80d1f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:39:54.235 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19ec5357, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@351d93bd, org.springframework.security.web.context.SecurityContextHolderFilter@9bf63d2, org.springframework.security.web.header.HeaderWriterFilter@359865a2, org.springframework.web.filter.CorsFilter@61c5fd78, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@4ca970d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f53fc38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5feb82b3, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@42503099, org.springframework.security.web.access.ExceptionTranslationFilter@204b0f07, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37f71c05]
+24-06-10 15:39:54.609 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:39:54.609 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:39:54.611 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:39:54.649 [main] INFO  c.E.c.LeavesControllerTest - Started LeavesControllerTest in 2.977 seconds (process running for 4.368) 
+24-06-10 15:39:54.785 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:39:54.785 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 

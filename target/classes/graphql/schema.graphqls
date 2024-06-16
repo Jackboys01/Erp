@@ -1,0 +1,24 @@
+type Query {
+    getClientById(
+        clientId: ID!): Client
+
+    getAllClient(id:ID):[Client]
+}
+
+type Client {
+    clientId: ID!
+    name: String!
+    email: String!
+    phone: String!
+    address: String!
+    projectSet: [Project!]
+}
+
+type Project {
+    projectId: ID!
+    name: String!
+    description: String!
+    startDate: String!
+    endDate: String!
+    client: Client!
+}

@@ -1,0 +1,406 @@
+24-06-10 15:48:17.406 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.LeavesControllerTest 
+24-06-10 15:48:17.660 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:17.908 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-06-10 15:48:17.964 [main] INFO  c.E.c.LeavesControllerTest - Starting LeavesControllerTest using Java 17.0.11 with PID 23240 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:17.965 [main] INFO  c.E.c.LeavesControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:19.689 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: dd4fee9d-f94d-46ac-8926-a6d7cc4fff05
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:20.170 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6df37f7a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39514976, org.springframework.security.web.context.SecurityContextHolderFilter@54e0f76f, org.springframework.security.web.header.HeaderWriterFilter@2d38db6f, org.springframework.web.filter.CorsFilter@7bdb4f17, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@780ee3ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7462ba4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b09d1c3, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@77856cc5, org.springframework.security.web.access.ExceptionTranslationFilter@7f53fc38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19ec5357]
+24-06-10 15:48:20.526 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:20.527 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:20.528 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:48:20.564 [main] INFO  c.E.c.LeavesControllerTest - Started LeavesControllerTest in 2.907 seconds (process running for 4.29) 
+24-06-10 15:48:20.694 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:20.694 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:32.771 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.AssetControllerTest 
+24-06-10 15:48:33.109 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:33.371 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final 
+24-06-10 15:48:33.401 [main] INFO  c.E.c.AssetControllerTest - Starting AssetControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:33.402 [main] INFO  c.E.c.AssetControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:35.239 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 18f56305-e5b8-4ffb-aa15-257952e9bca8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:35.728 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1468e880, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@508f4bb5, org.springframework.security.web.context.SecurityContextHolderFilter@67a38, org.springframework.security.web.header.HeaderWriterFilter@3a988299, org.springframework.web.filter.CorsFilter@5602e540, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@4f2544b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31b650e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@683fe7b5, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@11f9b95a, org.springframework.security.web.access.ExceptionTranslationFilter@31443680, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73ae82da]
+24-06-10 15:48:36.069 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:36.070 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:36.072 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms 
+24-06-10 15:48:36.098 [main] INFO  c.E.c.AssetControllerTest - Started AssetControllerTest in 3.002 seconds (process running for 4.627) 
+24-06-10 15:48:36.179 [main] INFO  c.E.c.AssetControllerTest - Starting testDeleteAsset 
+24-06-10 15:48:36.306 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:36.306 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:36.416 [main] INFO  c.E.c.AssetControllerTest - testDeleteAsset passed 
+24-06-10 15:48:36.444 [main] INFO  c.E.c.AssetControllerTest - Starting testUpdateAsset 
+24-06-10 15:48:36.450 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:36.451 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:36.516 [main] INFO  c.E.c.AssetControllerTest - testUpdateAsset passed 
+24-06-10 15:48:36.526 [main] INFO  c.E.c.AssetControllerTest - Starting testCreateAsset 
+24-06-10 15:48:36.529 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:36.529 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:36.533 [main] INFO  c.E.c.AssetControllerTest - testCreateAsset passed 
+24-06-10 15:48:36.542 [main] INFO  c.E.c.AssetControllerTest - Starting testAddAllAssets 
+24-06-10 15:48:36.544 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:36.545 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:36.587 [main] INFO  c.E.c.AssetControllerTest - testAddAllAssets passed 
+24-06-10 15:48:36.603 [main] INFO  c.E.c.AssetControllerTest - Starting getAllAssetsTest 
+24-06-10 15:48:36.605 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:36.605 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:36.656 [main] INFO  c.E.c.AssetControllerTest - getAllAssetsTest passed 
+24-06-10 15:48:36.668 [main] INFO  c.E.c.AssetControllerTest - Starting getAssetTest 
+24-06-10 15:48:36.671 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:36.671 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:36.675 [main] INFO  c.E.c.AssetControllerTest - getAssetTest passed 
+24-06-10 15:48:37.015 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.ClientControllerTest 
+24-06-10 15:48:37.023 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:37.060 [main] INFO  c.E.c.ClientControllerTest - Starting ClientControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:37.060 [main] INFO  c.E.c.ClientControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:37.358 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: ea22c444-07d7-4132-9bc8-a45d49dee75c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:37.449 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20040c6e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cbea0df, org.springframework.security.web.context.SecurityContextHolderFilter@7f69c4c0, org.springframework.security.web.header.HeaderWriterFilter@4ae435a3, org.springframework.web.filter.CorsFilter@396f3bf2, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@4607cbe2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a9a6a0c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cdb290c, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@70fcd3e5, org.springframework.security.web.access.ExceptionTranslationFilter@3feb93a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f36cd8f]
+24-06-10 15:48:37.489 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:37.489 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:37.490 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:48:37.497 [main] INFO  c.E.c.ClientControllerTest - Started ClientControllerTest in 0.473 seconds (process running for 6.026) 
+24-06-10 15:48:37.515 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:37.516 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:37.580 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:37.581 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:37.594 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:37.594 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:37.605 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:37.605 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:37.620 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:37.621 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:37.658 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.DepartmentControllerTest 
+24-06-10 15:48:37.665 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:37.701 [main] INFO  c.E.c.DepartmentControllerTest - Starting DepartmentControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:37.702 [main] INFO  c.E.c.DepartmentControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:37.973 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e2290d51-20a9-4690-961a-48966f903780
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:38.036 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ec921f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@172ca6a, org.springframework.security.web.context.SecurityContextHolderFilter@77eb0e47, org.springframework.security.web.header.HeaderWriterFilter@22025464, org.springframework.web.filter.CorsFilter@174e5929, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@2c39c520, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a034950, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@331eb953, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@7569bc9f, org.springframework.security.web.access.ExceptionTranslationFilter@628d6320, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@50165a6d]
+24-06-10 15:48:38.070 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:38.070 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:38.070 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms 
+24-06-10 15:48:38.077 [main] INFO  c.E.c.DepartmentControllerTest - Started DepartmentControllerTest in 0.412 seconds (process running for 6.606) 
+24-06-10 15:48:38.083 [main] INFO  c.E.c.DepartmentControllerTest - Starting testDeleteDepartment 
+24-06-10 15:48:38.089 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.089 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.097 [main] INFO  c.E.c.DepartmentControllerTest - testDeleteDepartment passed 
+24-06-10 15:48:38.105 [main] INFO  c.E.c.DepartmentControllerTest - Starting getAllDepartmentsTest 
+24-06-10 15:48:38.108 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.108 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.110 [main] INFO  c.E.c.DepartmentControllerTest - getAllDepartmentsTest passed 
+24-06-10 15:48:38.117 [main] INFO  c.E.c.DepartmentControllerTest - Starting testUpdateDepartment 
+24-06-10 15:48:38.119 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.120 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.124 [main] INFO  c.E.c.DepartmentControllerTest - testUpdateDepartment passed 
+24-06-10 15:48:38.130 [main] INFO  c.E.c.DepartmentControllerTest - Starting getDepartmentTest 
+24-06-10 15:48:38.131 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.131 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.134 [main] INFO  c.E.c.DepartmentControllerTest - getDepartmentTest passed 
+24-06-10 15:48:38.142 [main] INFO  c.E.c.DepartmentControllerTest - Starting testAddAllDepartments 
+24-06-10 15:48:38.144 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.145 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.176 [main] INFO  c.E.c.DepartmentControllerTest - testAddAllDepartments passed 
+24-06-10 15:48:38.183 [main] INFO  c.E.c.DepartmentControllerTest - Starting testCreateDepartment 
+24-06-10 15:48:38.186 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.186 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.189 [main] INFO  c.E.c.DepartmentControllerTest - testCreateDepartment passed 
+24-06-10 15:48:38.256 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.EmployeeControllerTest 
+24-06-10 15:48:38.259 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:38.281 [main] INFO  c.E.c.EmployeeControllerTest - Starting EmployeeControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:38.281 [main] INFO  c.E.c.EmployeeControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:38.505 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 72a1358e-d653-4768-aa73-151bdf73c628
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:38.582 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7aabbe81, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58885a2e, org.springframework.security.web.context.SecurityContextHolderFilter@52db9036, org.springframework.security.web.header.HeaderWriterFilter@466d6ea5, org.springframework.web.filter.CorsFilter@3d2bcf0a, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@713323a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76a90ecb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52d202f0, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@72e806, org.springframework.security.web.access.ExceptionTranslationFilter@3272c5b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2083bcfd]
+24-06-10 15:48:38.625 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:38.625 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:38.626 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:48:38.631 [main] INFO  c.E.c.EmployeeControllerTest - Started EmployeeControllerTest in 0.371 seconds (process running for 7.16) 
+24-06-10 15:48:38.638 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.638 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.653 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.653 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.662 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.662 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.678 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.678 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.697 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.697 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.709 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:38.709 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:38.854 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.InvoiceControllerTest 
+24-06-10 15:48:38.860 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:38.882 [main] INFO  c.E.c.InvoiceControllerTest - Starting InvoiceControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:38.883 [main] INFO  c.E.c.InvoiceControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:39.130 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9a475579-878d-4e7c-8ab6-966781dfd955
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:39.188 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21440e36, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9b87a98, org.springframework.security.web.context.SecurityContextHolderFilter@6dad684f, org.springframework.security.web.header.HeaderWriterFilter@ac3739d, org.springframework.web.filter.CorsFilter@75b598a5, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@24c7563b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@572c50b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33606f4b, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@50ba10de, org.springframework.security.web.access.ExceptionTranslationFilter@4104b585, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6809a461]
+24-06-10 15:48:39.227 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:39.227 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:39.228 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:48:39.237 [main] INFO  c.E.c.InvoiceControllerTest - Started InvoiceControllerTest in 0.377 seconds (process running for 7.766) 
+24-06-10 15:48:39.247 [main] INFO  c.E.c.InvoiceControllerTest - Starting testUpdateInvoice 
+24-06-10 15:48:39.256 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.256 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.268 [main] INFO  c.E.c.InvoiceControllerTest - testUpdateInvoice passed 
+24-06-10 15:48:39.275 [main] INFO  c.E.c.InvoiceControllerTest - Starting getInvoiceTest 
+24-06-10 15:48:39.277 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.277 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.282 [main] INFO  c.E.c.InvoiceControllerTest - getInvoiceTest passed 
+24-06-10 15:48:39.288 [main] INFO  c.E.c.InvoiceControllerTest - Starting getAllInvoicesTest 
+24-06-10 15:48:39.290 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.290 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.292 [main] INFO  c.E.c.InvoiceControllerTest - getAllInvoicesTest passed 
+24-06-10 15:48:39.297 [main] INFO  c.E.c.InvoiceControllerTest - Starting testDeleteInvoice 
+24-06-10 15:48:39.299 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.299 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.301 [main] INFO  c.E.c.InvoiceControllerTest - testDeleteInvoice passed 
+24-06-10 15:48:39.307 [main] INFO  c.E.c.InvoiceControllerTest - Starting testAddAllInvoices 
+24-06-10 15:48:39.309 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.309 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.329 [main] INFO  c.E.c.InvoiceControllerTest - testAddAllInvoices passed 
+24-06-10 15:48:39.336 [main] INFO  c.E.c.InvoiceControllerTest - Starting testCreateInvoice 
+24-06-10 15:48:39.340 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.340 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.343 [main] INFO  c.E.c.InvoiceControllerTest - testCreateInvoice passed 
+24-06-10 15:48:39.416 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.LeavesControllerTest 
+24-06-10 15:48:39.423 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:39.452 [main] INFO  c.E.c.LeavesControllerTest - Starting LeavesControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:39.453 [main] INFO  c.E.c.LeavesControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:39.649 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cfcb90af-9a89-4a77-a7e4-54e44ee86e67
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:39.706 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c175d82, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@133acad0, org.springframework.security.web.context.SecurityContextHolderFilter@45957b8f, org.springframework.security.web.header.HeaderWriterFilter@38c464df, org.springframework.web.filter.CorsFilter@7e1b96a7, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@4552f89f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70ad9a9b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@300cdf3f, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@65b51977, org.springframework.security.web.access.ExceptionTranslationFilter@4ff1e20b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b9815b6]
+24-06-10 15:48:39.748 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:39.748 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:39.749 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:48:39.764 [main] INFO  c.E.c.LeavesControllerTest - Started LeavesControllerTest in 0.341 seconds (process running for 8.293) 
+24-06-10 15:48:39.781 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.781 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.813 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.813 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.825 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.825 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.837 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.837 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.848 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:39.848 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:39.868 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.ProjectControllerTest 
+24-06-10 15:48:39.873 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:39.909 [main] INFO  c.E.c.ProjectControllerTest - Starting ProjectControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:39.909 [main] INFO  c.E.c.ProjectControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:40.142 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 94f07ede-4af6-437e-9378-9c6706d9fbaa
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:40.191 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18e69455, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e850e68, org.springframework.security.web.context.SecurityContextHolderFilter@b69be74, org.springframework.security.web.header.HeaderWriterFilter@7252e3ec, org.springframework.web.filter.CorsFilter@5111de33, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@6409a2e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cdd90c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47fde444, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@5b33446d, org.springframework.security.web.access.ExceptionTranslationFilter@56d9bc5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5eea8854]
+24-06-10 15:48:40.215 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:40.215 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:40.216 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:48:40.220 [main] INFO  c.E.c.ProjectControllerTest - Started ProjectControllerTest in 0.348 seconds (process running for 8.749) 
+24-06-10 15:48:40.226 [main] INFO  c.E.c.ProjectControllerTest - Starting getProjectTest 
+24-06-10 15:48:40.234 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.234 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.241 [main] INFO  c.E.c.ProjectControllerTest - getProjectTest passed 
+24-06-10 15:48:40.248 [main] INFO  c.E.c.ProjectControllerTest - Starting testAddAllProjects 
+24-06-10 15:48:40.251 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.251 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.280 [main] INFO  c.E.c.ProjectControllerTest - testAddAllProjects passed 
+24-06-10 15:48:40.289 [main] INFO  c.E.c.ProjectControllerTest - Starting testCreateProject 
+24-06-10 15:48:40.295 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.295 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.298 [main] INFO  c.E.c.ProjectControllerTest - testCreateProject passed 
+24-06-10 15:48:40.307 [main] INFO  c.E.c.ProjectControllerTest - Starting testUpdateProject 
+24-06-10 15:48:40.309 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.309 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.314 [main] INFO  c.E.c.ProjectControllerTest - testUpdateProject passed 
+24-06-10 15:48:40.322 [main] INFO  c.E.c.ProjectControllerTest - Starting getAllProjectsTest 
+24-06-10 15:48:40.324 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.325 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.327 [main] INFO  c.E.c.ProjectControllerTest - getAllProjectsTest passed 
+24-06-10 15:48:40.336 [main] INFO  c.E.c.ProjectControllerTest - Starting testDeleteProject 
+24-06-10 15:48:40.337 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.338 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.341 [main] INFO  c.E.c.ProjectControllerTest - testDeleteProject passed 
+24-06-10 15:48:40.473 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.SalaryStructureControllerTest 
+24-06-10 15:48:40.476 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:40.499 [main] INFO  c.E.c.SalaryStructureControllerTest - Starting SalaryStructureControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:40.499 [main] INFO  c.E.c.SalaryStructureControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:40.716 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6a555ebc-ab33-4221-b062-d0b99778ce31
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:40.772 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58f45557, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@674db438, org.springframework.security.web.context.SecurityContextHolderFilter@656605e7, org.springframework.security.web.header.HeaderWriterFilter@37bdd4b1, org.springframework.web.filter.CorsFilter@5e5af20c, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@5c24a636, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29d8d7a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50798d39, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@7e41e1e4, org.springframework.security.web.access.ExceptionTranslationFilter@7261773c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19273390]
+24-06-10 15:48:40.798 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:40.798 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:40.799 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms 
+24-06-10 15:48:40.803 [main] INFO  c.E.c.SalaryStructureControllerTest - Started SalaryStructureControllerTest in 0.327 seconds (process running for 9.333) 
+24-06-10 15:48:40.814 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.814 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.825 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.825 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.838 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.838 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.862 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.862 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.877 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.877 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.891 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:40.891 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:40.912 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.controllersTest.TaskControllerTest 
+24-06-10 15:48:40.917 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:40.943 [main] INFO  c.E.c.TaskControllerTest - Starting TaskControllerTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:40.943 [main] INFO  c.E.c.TaskControllerTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:41.156 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5476ab54-a50d-4ae2-9f0b-042b3dccf708
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+ 
+24-06-10 15:48:41.201 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@946b9d9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68cacf8b, org.springframework.security.web.context.SecurityContextHolderFilter@2d154a38, org.springframework.security.web.header.HeaderWriterFilter@2e239394, org.springframework.web.filter.CorsFilter@7b8247bc, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@7ed47927, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21be9ddc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b9a2d73, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@3743d16b, org.springframework.security.web.access.ExceptionTranslationFilter@21996ae2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28ec9c23]
+24-06-10 15:48:41.229 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet '' 
+24-06-10 15:48:41.229 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet '' 
+24-06-10 15:48:41.229 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms 
+24-06-10 15:48:41.235 [main] INFO  c.E.c.TaskControllerTest - Started TaskControllerTest in 0.319 seconds (process running for 9.764) 
+24-06-10 15:48:41.247 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:41.247 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:41.264 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:41.264 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:41.275 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:41.275 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:41.289 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:41.289 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:41.299 [main] INFO  c.E.security.JwtAuthenticationFilter - Header: null 
+24-06-10 15:48:41.299 [main] INFO  c.E.security.JwtAuthenticationFilter - Invalid Authorization header. 
+24-06-10 15:48:41.314 [main] INFO  com.ERP.entitiesTest.AssetTest - Testing getters 
+24-06-10 15:48:41.319 [main] INFO  com.ERP.entitiesTest.AssetTest - Testing setters 
+24-06-10 15:48:41.323 [main] INFO  com.ERP.entitiesTest.AssetTest - Testing constructor 
+24-06-10 15:48:41.389 [main] INFO  com.ERP.entitiesTest.ClientTest - Testing getters 
+24-06-10 15:48:41.392 [main] INFO  com.ERP.entitiesTest.ClientTest - Testing setters 
+24-06-10 15:48:41.394 [main] INFO  com.ERP.entitiesTest.ClientTest - Testing constructor 
+24-06-10 15:48:41.501 [main] INFO  com.ERP.entitiesTest.DepartmentTest - Setting up test environment 
+24-06-10 15:48:41.502 [main] INFO  com.ERP.entitiesTest.DepartmentTest - Testing getters 
+24-06-10 15:48:41.506 [main] INFO  com.ERP.entitiesTest.DepartmentTest - Setting up test environment 
+24-06-10 15:48:41.507 [main] INFO  com.ERP.entitiesTest.DepartmentTest - Testing setters 
+24-06-10 15:48:41.511 [main] INFO  com.ERP.entitiesTest.DepartmentTest - Setting up test environment 
+24-06-10 15:48:41.512 [main] INFO  com.ERP.entitiesTest.DepartmentTest - Testing constructor 
+24-06-10 15:48:41.562 [main] INFO  com.ERP.entitiesTest.EmployeeTest - Testing getters 
+24-06-10 15:48:41.564 [main] INFO  com.ERP.entitiesTest.EmployeeTest - Testing setters 
+24-06-10 15:48:41.568 [main] INFO  com.ERP.entitiesTest.EmployeeTest - Testing constructor 
+24-06-10 15:48:41.579 [main] INFO  com.ERP.entitiesTest.InvoiceTest - Testing getters 
+24-06-10 15:48:41.584 [main] INFO  com.ERP.entitiesTest.InvoiceTest - Testing setters 
+24-06-10 15:48:41.587 [main] INFO  com.ERP.entitiesTest.InvoiceTest - Testing constructor 
+24-06-10 15:48:41.639 [main] INFO  com.ERP.entitiesTest.LeavesTest - Testing getters 
+24-06-10 15:48:41.642 [main] INFO  com.ERP.entitiesTest.LeavesTest - Testing setters 
+24-06-10 15:48:41.645 [main] INFO  com.ERP.entitiesTest.LeavesTest - Testing constructor 
+24-06-10 15:48:41.849 [main] INFO  com.ERP.entitiesTest.ProjectTest - Setting up test environment 
+24-06-10 15:48:41.850 [main] INFO  com.ERP.entitiesTest.ProjectTest - Testing getters 
+24-06-10 15:48:41.854 [main] INFO  com.ERP.entitiesTest.ProjectTest - Setting up test environment 
+24-06-10 15:48:41.855 [main] INFO  com.ERP.entitiesTest.ProjectTest - Testing setters 
+24-06-10 15:48:41.858 [main] INFO  com.ERP.entitiesTest.ProjectTest - Setting up test environment 
+24-06-10 15:48:41.859 [main] INFO  com.ERP.entitiesTest.ProjectTest - Testing constructor 
+24-06-10 15:48:41.905 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.ErpApplicationTests]: ErpApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:48:41.916 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.ErpApplicationTests 
+24-06-10 15:48:41.922 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:41.942 [main] INFO  com.ERP.ErpApplicationTests - Starting ErpApplicationTests using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:41.943 [main] INFO  com.ERP.ErpApplicationTests - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:42.419 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+24-06-10 15:48:42.484 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 12 JPA repository interfaces. 
+24-06-10 15:48:42.811 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+24-06-10 15:48:42.881 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final 
+24-06-10 15:48:42.922 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+24-06-10 15:48:43.049 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+24-06-10 15:48:43.091 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting... 
+24-06-10 15:48:43.873 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f24bda8 
+24-06-10 15:48:43.876 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed. 
+24-06-10 15:48:43.960 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+24-06-10 15:48:43.961 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead 
+24-06-10 15:48:44.929 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+24-06-10 15:48:46.335 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+24-06-10 15:48:46.914 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+24-06-10 15:48:47.303 [main] INFO  o.s.g.e.DefaultSchemaResourceGraphQlSourceBuilder - Loaded 1 resource(s) in the GraphQL schema. 
+24-06-10 15:48:47.486 [main] INFO  o.s.b.a.g.GraphQlAutoConfiguration - GraphQL schema inspection:
+	Unmapped fields: {Query=[getClientById]}
+	Unmapped registrations: {}
+	Skipped types: [] 
+24-06-10 15:48:47.501 [main] INFO  o.s.b.a.g.s.GraphQlWebMvcAutoConfiguration - GraphQL endpoint HTTP POST /graphql 
+24-06-10 15:48:47.528 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a8c1916, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66f44bef, org.springframework.security.web.context.SecurityContextHolderFilter@4d0af3c9, org.springframework.security.web.header.HeaderWriterFilter@4da9ddf5, org.springframework.security.web.jwtAuthentication.logout.LogoutFilter@446b6100, com.ERP.security.JwtAuthenticationFilter@28353636, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65a80c28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@545b28fa, org.springframework.security.web.jwtAuthentication.AnonymousAuthenticationFilter@45626c84, org.springframework.security.web.session.SessionManagementFilter@4fa8b39c, org.springframework.security.web.access.ExceptionTranslationFilter@daadcfc, org.springframework.security.web.access.intercept.AuthorizationFilter@4a43aaad]
+24-06-10 15:48:47.804 [main] INFO  com.ERP.ErpApplicationTests - Started ErpApplicationTests in 5.882 seconds (process running for 16.333) 
+24-06-10 15:48:47.817 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.AssetRepositoryTest]: AssetRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:48:47.828 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.AssetRepositoryTest 
+24-06-10 15:48:47.838 [main] INFO  c.E.r.AssetRepositoryTest - Starting addAll 
+24-06-10 15:48:48.380 [main] INFO  c.E.r.AssetRepositoryTest - addAll passed 
+24-06-10 15:48:48.385 [main] INFO  c.E.r.AssetRepositoryTest - Starting deleteAsset 
+24-06-10 15:48:49.204 [main] INFO  c.E.r.AssetRepositoryTest - deleteAsset passed 
+24-06-10 15:48:49.208 [main] INFO  c.E.r.AssetRepositoryTest - Starting findAllAssets 
+24-06-10 15:48:49.208 [main] INFO  c.E.r.AssetRepositoryTest - Starting addAll 
+24-06-10 15:48:49.518 [main] INFO  c.E.r.AssetRepositoryTest - addAll passed 
+24-06-10 15:48:49.789 [main] INFO  c.E.r.AssetRepositoryTest - findAllAssets passed 
+24-06-10 15:48:49.793 [main] INFO  c.E.r.AssetRepositoryTest - Starting saveAssetTest 
+24-06-10 15:48:50.020 [main] INFO  c.E.r.AssetRepositoryTest - saveAssetTest passed 
+24-06-10 15:48:50.024 [main] INFO  c.E.r.AssetRepositoryTest - Starting updateAsset 
+24-06-10 15:48:50.794 [main] INFO  c.E.r.AssetRepositoryTest - updateAsset passed 
+24-06-10 15:48:50.798 [main] INFO  c.E.r.AssetRepositoryTest - Starting findAssetById 
+24-06-10 15:48:51.356 [main] INFO  c.E.r.AssetRepositoryTest - findAssetById passed 
+24-06-10 15:48:51.397 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.ClientRepositoryTest]: ClientRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:48:51.398 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.ClientRepositoryTest 
+24-06-10 15:48:53.803 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.DepartmentRepositoryTest]: DepartmentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:48:53.804 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.DepartmentRepositoryTest 
+24-06-10 15:48:53.807 [main] INFO  c.E.r.DepartmentRepositoryTest - Starting addAll 
+24-06-10 15:48:54.152 [main] INFO  c.E.r.DepartmentRepositoryTest - addAll passed 
+24-06-10 15:48:54.155 [main] INFO  c.E.r.DepartmentRepositoryTest - Starting updateDepartment 
+24-06-10 15:48:54.917 [main] INFO  c.E.r.DepartmentRepositoryTest - updateDepartment passed 
+24-06-10 15:48:54.920 [main] INFO  c.E.r.DepartmentRepositoryTest - Starting saveDepartmentTest 
+24-06-10 15:48:55.160 [main] INFO  c.E.r.DepartmentRepositoryTest - saveDepartmentTest passed 
+24-06-10 15:48:55.165 [main] INFO  c.E.r.DepartmentRepositoryTest - Starting findDepartmentById 
+24-06-10 15:48:55.739 [main] INFO  c.E.r.DepartmentRepositoryTest - findDepartmentById passed 
+24-06-10 15:48:55.745 [main] INFO  c.E.r.DepartmentRepositoryTest - Starting findAllDepartments 
+24-06-10 15:48:56.024 [main] INFO  c.E.r.DepartmentRepositoryTest - findAllDepartments passed 
+24-06-10 15:48:56.060 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ERP.repositoriesTest.EmployeeRepositoryTest]: EmployeeRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
+24-06-10 15:48:56.077 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ERP.ErpApplication for test class com.ERP.repositoriesTest.EmployeeRepositoryTest 
+24-06-10 15:48:56.080 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running 
+24-06-10 15:48:56.104 [main] INFO  c.E.r.EmployeeRepositoryTest - Starting EmployeeRepositoryTest using Java 17.0.11 with PID 2880 (started by ASUS in C:\Users\ASUS\OneDrive\Desktop\erp new) 
+24-06-10 15:48:56.104 [main] INFO  c.E.r.EmployeeRepositoryTest - No active profile set, falling back to 1 default profile: "default" 
+24-06-10 15:48:56.182 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+24-06-10 15:48:56.204 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 12 JPA repository interfaces. 
+24-06-10 15:48:56.250 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+24-06-10 15:48:56.254 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+24-06-10 15:48:56.269 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+24-06-10 15:48:56.270 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting... 
+24-06-10 15:48:56.804 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b66dfcc 
+24-06-10 15:48:56.805 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed. 
+24-06-10 15:48:56.805 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+24-06-10 15:48:56.805 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead 
+24-06-10 15:48:57.001 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+24-06-10 15:48:58.694 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+24-06-10 15:48:58.771 [main] INFO  c.E.r.EmployeeRepositoryTest - Started EmployeeRepositoryTest in 2.691 seconds (process running for 27.301) 
